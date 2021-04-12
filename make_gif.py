@@ -126,7 +126,7 @@ def save_gif_images(env_name, has_continuous_action_space, max_ep_len, action_st
 		        break
 
 		# clear buffer
-        ppo_agent.buffer.clear()
+        	ppo_agent.buffer.clear()
 		
 		test_running_reward +=  ep_reward
 		print('Episode: {} \t\t Reward: {}'.format(ep, round(ep_reward, 2)))
